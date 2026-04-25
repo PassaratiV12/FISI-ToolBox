@@ -13,7 +13,7 @@ ALGORITHMS = ["MD5", "SHA1", "SHA256", "SHA384", "SHA512", "SHA3-256", "BLAKE2b"
 
 
 class HashGeneratorWidget(BaseModuleWidget):
-    MODULE_TITLE = "# Hash Generator"
+    MODULE_TITLE = "Hash Generator"
     MODULE_SUBTITLE = "MD5 · SHA1 · SHA256 · SHA512 · Datei-Hashing"
 
     def setup_ui(self):

@@ -23,20 +23,20 @@ from modules.about import AboutWidget
 
 
 NAV_ITEMS = [
-    ("🌐", "Netzwerk",          "network"),
-    ("🔍", "Port Scanner",      "portscan"),
-    ("📡", "Ping Monitor",      "ping"),
-    ("🖥️",  "Systeminfo",       "sysinfo"),
-    ("⚙️",  "Prozesse",         "processes"),
-    ("🔑", "Passwort Gen.",     "password"),
-    ("#",  "Hash Gen.",         "hash"),
-    ("📋", "Log Filter",        "logs"),
-    ("🧮", "Subnetz Rechner",   "subnet"),
-    ("💡", "Wake-on-LAN",       "wol"),
-    ("🔒", "SSL Checker",       "ssl"),
-    ("⏰", "Cron Builder",      "cron"),
-    ("📝", "Notizen",           "notes"),
-    ("ℹ️",  "About & Imprint",  "about"),
+    ("", "Netzwerk",          "network"),
+    ("", "Port Scanner",      "portscan"),
+    ("", "Ping Monitor",      "ping"),
+    ("",  "Systeminfo",       "sysinfo"),
+    ("",  "Prozesse",         "processes"),
+    ("", "Passwort Gen.",     "password"),
+    ("",  "Hash Gen.",         "hash"),
+    ("", "Log Filter",        "logs"),
+    ("", "Subnetz Rechner",   "subnet"),
+    ("", "Wake-on-LAN",       "wol"),
+    ("", "SSL Checker",       "ssl"),
+    ("", "Cron Builder",      "cron"),
+    ("", "Notizen",           "notes"),
+    ("",  "About & Imprint",  "about"),
 ]
 
 

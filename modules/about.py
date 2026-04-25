@@ -9,7 +9,7 @@ import os
 
 class AboutWidget(BaseModuleWidget):
     MODULE_TITLE = "ℹ️  About & Imprint"
-    MODULE_SUBTITLE = "Legal Information · Credits · License"
+    
 
     def setup_ui(self):
         scroll = QScrollArea()
@@ -71,12 +71,8 @@ class AboutWidget(BaseModuleWidget):
 
         imprint_data = [
             ("Developer",       "Cedric Thieme"),
-            ("Role",            "IT Specialist for System Integration (FISI)"),
             ("Application",     "FISI Toolbox"),
-            ("Purpose",         "Internal IT toolbox for daily operational tasks"),
-            ("Target Platform", "Linux (Fedora, Debian, Ubuntu and derivatives)"),
-            ("Distribution",    "Internal use · Flatpak"),
-            ("Contact",         "Cedric Thieme"),
+            ("Target Platform", "Linux"),
         ]
         for label, value in imprint_data:
             self._info_row(imprint_layout, label, value)
